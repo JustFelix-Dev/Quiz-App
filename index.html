@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/b1c5b9dbea.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <!-- Start Button -->
+    <div class="start_btn"> <button>Start Quiz</button></div>
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Quiz Rules</span></div>
+        <div class="info_list">
+            <div class="info">1.&nbsp; You will have only <span>15 seconds</span> to answer these questions</div>
+            <div class="info">2.&nbsp;You can only select an option once.</div>
+            <div class="info">3.&nbsp;You will no longer be able to select any options once your time is up.</div>
+            <div class="info">4.&nbsp;You won't be able to exit the quiz while you are playing.</div>
+            <div class="info">5.&nbsp;Points will be awarded on the basis of your accurate answers.Goodluck!</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+          <header>
+            <div class="title">Quiz Questions</div>
+            <div class="timer">
+                <audio src=""></audio>
+                <div class="time_title">Time Left:</div>
+                <div class="time_sec">15</div>
+            </div>
+          </header>
+
+          <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+               
+            </div>
+          </section>
+
+          <!-- Quiz Box Footer -->
+          <footer>
+            <div class="total_que">
+            </div>
+            <div class="next_btn">Next Que..</div>
+          </footer>
+        </div>
+        <!-- Quiz Result Box -->
+        <div class="result_box">
+          <div class="icon">
+              <i class="fa-solid fa-square-poll-vertical"></i>
+          </div>
+          <div class="complete_text">You are done with this Quiz!</div>
+          <div class="score_text">
+          </div>
+          <div class="buttons">
+              <button class="restart">Print</button>
+            <button class="quit">Replay</button>
+          </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="questions.js"></script>
+</body>
+</html>
+
