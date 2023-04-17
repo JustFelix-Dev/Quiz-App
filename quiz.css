@@ -40,7 +40,7 @@ body{
 .quiz_box.activeQuiz,
 .result_box.activeRes
 {
-    min-width: 400px;
+    min-width: 300px;
     z-index: 5;
     opacity:1;
     pointer-events: auto;
