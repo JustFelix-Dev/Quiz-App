@@ -291,3 +291,10 @@ body{
 .result_box .buttons button:hover{
     opacity: .7;
 }
+
+/* Responsiveness */
+@media screen and (max-width:600px){
+    html{
+        font-size: 14px;
+    }
+}
