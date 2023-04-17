@@ -250,10 +250,10 @@ body{
     color: orange;
 }
 .result_box .complete_text{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .result_box .score_text{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .result_box .score_text span p{
     padding: 0 .3rem;
