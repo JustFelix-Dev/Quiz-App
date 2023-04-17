@@ -251,14 +251,10 @@ body{
 .result_box .score_text{
     font-size: 1.5rem;
 }
-.result_box .score_text span{
-    display: flex;
-    justify-content: center;
-}
 .result_box .score_text span p{
     padding: 0 .3rem;
 }
-.result_box .score_text span p:first-of-type {
+.result_box .score_text span:first-of-type {
     color: orange;
     font-weight: 600;
     padding: 0 .5rem;

@@ -138,31 +138,31 @@ function timeStart(time){
             if(userScore == 7){
                 const scoreText = resultBox.querySelector('.score_text');
             scoreText.innerHTML = `
-            <span> Fantastic✨, you got<p>${userScore}</p>out of<p>${questions.length}</p></span>
+            <p> Fantastic✨, you got<span>${userScore}</span>out of <span>${questions.length}</span></p>
             `
             }
             else if(userScore >= 5){
                 const scoreText = resultBox.querySelector('.score_text');
             scoreText.innerHTML = `
-            <span> Congrats😊, you got<p>${userScore}</p>out of<p>${questions.length}</p></span>
+            <p> Congrats😊, you got<span>${userScore}</span>out of <span>${questions.length}</span></p>
             `
             }
             else if (userScore >= 3){
                 const scoreText = resultBox.querySelector('.score_text');
                 scoreText.innerHTML = `
-                <span> Good One!, you got<p>${userScore}</p>out of<p>${questions.length}</p></span>
+                <p> Good One!, you got<span>${userScore}</span>out of <span>${questions.length}</span></p>
                 `
             }
             else if (userScore == 0 ){
                 const scoreText = resultBox.querySelector('.score_text');
                 scoreText.innerHTML = `
-                <span> You got<p>${userScore}</p>out of<p>${questions.length}</p>.Learn Coding!</span>
+                <p> You got<span>${userScore}</span>out of <span>${questions.length}</span>.Learn Coding!</p>
                 `
             }
             else if (userScore < 3){
                 const scoreText = resultBox.querySelector('.score_text');
                 scoreText.innerHTML = `
-                <span> You tried!, you got<p>${userScore}</p>out of<p>${questions.length}</p></span>
+                <p> You tried!, you got<span>${userScore}</span>out of <span>${questions.length}</span></p>
                 `
             }
         }
